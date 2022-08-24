@@ -384,7 +384,8 @@ li + .iteam {
   appearance: none;
 }
 
-.modal-checkbox:checked + .checkbox-icon {
+.modal-checkbox:checked + .checkbox-icon,
+.modal-checkbox:focus-within + .checkbox-icon {
   background-image: url(../images/icon-check.svg);
   background-repeat: no-repeat;
   width: 16px;
